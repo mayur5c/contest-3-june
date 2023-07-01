@@ -1,0 +1,25 @@
+/* importing the Inter font */
+@import url("https://fonts.googleapis.com/css2?family=Inter");
+
+/* Importing tailwind classes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* giving Inter font to entire html document */
+@layer base {
+  html {
+    font-family: "Inter";
+  }
+}
+
+/* controlling the scroll visibility */
+* {
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
